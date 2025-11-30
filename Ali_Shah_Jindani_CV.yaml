@@ -1,0 +1,202 @@
+cv:
+  name: "Ali Shah Jindani"
+  location: "Karachi"
+  email: "alishahjindani@outlook.com"
+  phone: "+92 333 2144207"
+  website:
+  sections:
+    experience:
+      - company: "Center for Economic Research in Pakistan"
+        position: "Project Intern, National Science Bowl"
+        date:
+        start_date: "2025-09"
+        end_date: "2025-10"
+        location:
+        summary:
+        highlights:
+          - Architected a full-stack registrations portal with 1700+ users using Flask, Supabase, and Google OAuth.
+          - Led a 20-person volunteer team to expand the school outreach database by 197% (1000+ new entries).
+          - Targeted cold outreach to schools with 150+ phone calls, 700+ emails, and 1500+ WhatsApp messages.
+      - company: "Institute of Business Administration"
+        position: "Teaching Assistant, Computational Thinking"
+        date:
+        start_date: "2025-06"
+        end_date:
+        location:
+        summary:
+        highlights:
+          - "Assisted Prof. Jawwad Farid and Prof. Dr. Rizwan Khan in developing coursework and ensuring quality standards."
+          - "Conducted tutorials and addressed student queries in building computational models during weekly office hours."
+          - "Mentored students in building a 64-bit matrix multiplication circuit and a machine learning face recognition model."
+    education:
+      - institution: "Institute of Business Administration"
+        area: "Computer Science"
+        degree: "Bachelor of Science"
+        grade:
+        date:
+        start_date: "2024-08"
+        end_date: "2028-07"
+        location:
+        summary:
+        highlights:
+          - "CGPA: 3.65/4.00 (Dean's List), Score: 86.25%"
+          - "Activities: Google Developer Groups, Computer Science Society, Math and Astronomy Club"
+          - "Relevant Coursework: Computational Thinking, Object-Oriented Programming, Data Structures, Digital Logic Design, Calculus 1 & 2, Descriptive Statistics, Discrete Mathematics, Linear Algebra, Numerical Analysis, Physics"
+      - institution: "Cedar College"
+        area: "Computer Science, Mathematics, Further Math, Physics"
+        degree: "A Level"
+        grade:
+        date:
+        start_date: "2022-08"
+        end_date: "2024-06"
+        location:
+        summary:
+        highlights:
+          - "Grade: 1A* 2A 1B, CGPA: 4.00/4.33 (Dean's List), SAT: 1430 (95th Percentile)"
+          - "Achievements: Cedar Knight Award ('exceptional school spirit'), 80% Merit Scholarship, Scinnova Executive Award"
+          - "Activities: Executive of CREW (Engineering Society), Executive of Mind Sports Society, Executive of Scinnova VI (National Science Olympiad), Peer Tutor, National Science Bowl 2023 Champion (1st in Region, 2nd in Nation, 160+ teams), PsiFi XV Showdown at LUMS (2nd Place, 350+ teams), AI Summer Program (1st Place, 77 students)"
+      # - institution: "Karachi Public School"
+      #   area: "Pre-Engineering and Humanities"
+      #   degree: "O Level"
+      #   grade:
+      #   date:
+      #   start_date: "2019-05"
+      #   end_date: "2022-06"
+      #   location:
+      #   summary:
+      #   highlights:
+      #     - "Grade: 6A* 2A 1B, Score: 90.2% (Valedictorian, Principal's List)"
+      #     - "Awards: Golden Pen Award (best essay writer), Python Contest Winner"
+    projects:
+      - name: "[PseudoScript](https://alishah.pythonanywhere.com) -- Programming Language -- Built with Python (Flask, Pytest), JavaScript (Xterm.js)"
+        highlights:
+          - Implemented a custom lexer and recursive descent parser in Python to interpret O/A Level pseudocode, featuring variable scoping and error handling.
+      - name: "[Genesis](https://github.com/asjindani/genesis) -- Built with C++, Qt (QGraphicsScene), SQLite"
+        date:
+        start_date:
+        end_date:
+        location:
+        summary:
+        highlights:
+          - "A genealogy app that enables users to create, manage, and explore complex relationships and view family trees."
+      - name: "[Typister](https://typister.vercel.app) -- Built with JavaScript"
+        highlights:
+          - "A minimalist web app to test typing speed and accuracy with a timer, colorful themes, and custom word packs."
+    skills:
+      - label: Languages
+        details: Python, C++, JavaScript, PHP, SQL
+      - label: Libraries
+        details: STL, Qt, Ncurses, Numpy, Pandas, Matplotlib, Seaborn, Scipy, Flask, SQLAlchemy, Pytest, Bootstrap, PostgreSQL, SQLite, Supabase, Google OAuth
+      - label: Tools
+        details: Git, GitHub, PowerBI, R, Excel, Logisim, Verilog
+      # - label: "Languages"
+      #   details: "English (proficient), Urdu (native), Sindhi (conversational)"
+  sort_entries: "none"
+  photo:
+  social_networks:
+    - network: "LinkedIn"
+      username: "alishahjindani"
+    - network: "GitHub"
+      username: "asjindani"
+design:
+  theme: "engineeringresumes"
+  header:
+    name_font_family: "XCharter"
+    name_font_size: "25pt"
+    name_bold: true
+    small_caps_for_name: false
+    photo_width: "3.5cm"
+    vertical_space_between_name_and_connections: "0.7cm"
+    vertical_space_between_connections_and_first_section: "0.7cm"
+    horizontal_space_between_connections: "0.5cm"
+    connections_font_family: "XCharter"
+    separator_between_connections: ""
+    use_icons_for_connections: true
+    use_urls_as_placeholders_for_connections: false
+    make_connections_links: true
+    alignment: "center"
+  entry_types:
+    one_line_entry:
+      template: "**LABEL:** DETAILS"
+    education_entry:
+      main_column_first_row_template: "**INSTITUTION**, DEGREE in AREA -- LOCATION"
+      degree_column_template:
+      degree_column_width: "1cm"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: "DATE"
+    normal_entry:
+      main_column_first_row_template: "**NAME**"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: "DATE"
+    experience_entry:
+      main_column_first_row_template: "**COMPANY**, POSITION"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column_first_row_template: "**TITLE**"
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: "DATE"
+  links:
+    underline: false
+    use_external_link_icon: true
+  colors:
+    text: "rgb(0, 0, 0)"
+    name: "rgb(0, 0, 0)"
+    connections: "rgb(0, 0, 0)"
+    section_titles: "rgb(0, 0, 0)"
+    links: "rgb(0, 0, 0)"
+    last_updated_date_and_page_numbering: "rgb(128, 128, 128)"
+locale:
+  language: "en"
+  phone_number_format: "national"
+  page_numbering_template: "NAME - Page PAGE_NUMBER of TOTAL_PAGES"
+  last_updated_date_template: "Last updated in TODAY"
+  date_template: "MONTH_ABBREVIATION YEAR"
+  month: "month"
+  months: "months"
+  year: "year"
+  years: "years"
+  present: "Present"
+  to: "–"
+  abbreviations_for_months:
+    - "Jan"
+    - "Feb"
+    - "Mar"
+    - "Apr"
+    - "May"
+    - "Jun"
+    - "Jul"
+    - "Aug"
+    - "Sep"
+    - "Oct"
+    - "Nov"
+    - "Dec"
+  full_names_of_months:
+    - "January"
+    - "February"
+    - "March"
+    - "April"
+    - "May"
+    - "June"
+    - "July"
+    - "August"
+    - "September"
+    - "October"
+    - "November"
+    - "December"

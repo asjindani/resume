@@ -6,22 +6,31 @@ cv:
   website:
   sections:
     experience:
+      - company: Google Developer Groups on Campus IBA
+        position: Technical Lead, Competitive Programming
+        start_date: 2025-12
+        end_date: 
+        highlights:
+          - Lead competitive programming education initiative, teaching C++ and Python to students preparing for the ICPC.
+          - Design and deliver curriculum covering data structures, algorithms, problem-solving strategies, and optimization.
+          - Develop curated problem sets organized by difficulty and topic, and supporting students with structured practice.
+          - Organize mock competitions and practice contests to simulate competitive environments and increase confidence.
       - company: "Center for Economic Research in Pakistan"
-        position: "Project Intern, National Science Bowl"
+        position: "Outreach Lead, National Science Bowl"
         date:
         start_date: "2025-09"
         end_date: "2025-10"
         location:
         summary:
         highlights:
-          - Architected a full-stack registrations portal with 1700+ users using Flask, Supabase, and Google OAuth.
-          - Led a 20-person volunteer team to expand the school outreach database by 197% (1000+ new entries).
-          - Targeted cold outreach to schools with 150+ phone calls, 700+ emails, and 1500+ WhatsApp messages.
+          - Architected a full-stack web portal with 1700+ active users using Flask, Supabase, PostgreSQL, and Google OAuth.
+          - Led a 20-person volunteer team to expand the school outreach database with 197% growth (1000+ new entries).
+          - Targeted outreach to students and schools with 150+ phone calls, 700+ emails, and 1500+ WhatsApp messages.
       - company: "Institute of Business Administration"
         position: "Teaching Assistant, Computational Thinking"
         date:
         start_date: "2025-06"
-        end_date:
+        end_date: "2025-12"
         location:
         summary:
         highlights:
@@ -39,9 +48,8 @@ cv:
         location:
         summary:
         highlights:
-          - "CGPA: 3.65/4.00 (Dean's List), Score: 86.25%"
-          - "Activities: Google Developer Groups, Computer Science Society, Math and Astronomy Club"
-          - "Relevant Coursework: Computational Thinking, Object-Oriented Programming, Data Structures, Digital Logic Design, Calculus 1 & 2, Descriptive Statistics, Discrete Mathematics, Linear Algebra, Numerical Analysis, Physics"
+          - "CGPA: 3.65/4.00 (Dean's List), Percentage: 86.25, Activities: IMAC Judge (Scinnova IX), Module Head (ProBattle)"
+          - "Relevant Coursework: Computational Thinking, Object-Oriented Programming, Data Structures and Algorithms, Digital Logic Design, Calculus 1 & 2, Statistics, Discrete Mathematics, Linear Algebra, Numerical Analysis, Physics"
       - institution: "Cedar College"
         area: "Computer Science, Mathematics, Further Math, Physics"
         degree: "A Level"
@@ -52,9 +60,10 @@ cv:
         location:
         summary:
         highlights:
-          - "Grade: 1A* 2A 1B, CGPA: 4.00/4.33 (Dean's List), SAT: 1430 (95th Percentile)"
+          - "Grade: 1A* 2A 1B, CGPA: 4.00/4.33 (Dean's List), SAT: 1430 (95th Percentile), SAT Math: 780 (98th Percentile)"
           - "Achievements: Cedar Knight Award ('exceptional school spirit'), 80% Merit Scholarship, Scinnova Executive Award"
-          - "Activities: Executive of CREW (Engineering Society), Executive of Mind Sports Society, Executive of Scinnova VI (National Science Olympiad), Peer Tutor, National Science Bowl 2023 Champion (1st in Region, 2nd in Nation, 160+ teams), PsiFi XV Showdown at LUMS (2nd Place, 350+ teams), AI Summer Program (1st Place, 77 students)"
+          - "Competitions: National Science Bowl (1st in Region, 2nd in Nation), LUMS PsiFi XV (2nd in Nation, 350+ teams)"
+          # - "Activities: Executive of CREW (Engineering Society), Executive of Mind Sports Society, Executive of Scinnova VI (National Science Olympiad), Peer Tutor, National Science Bowl 2023 Champion (1st in Region, 2nd in Nation, 160+ teams), PsiFi XV Showdown at LUMS (2nd Place, 350+ teams), AI Summer Program (1st Place, 77 students)"
       # - institution: "Karachi Public School"
       #   area: "Pre-Engineering and Humanities"
       #   degree: "O Level"
@@ -68,10 +77,15 @@ cv:
       #     - "Grade: 6A* 2A 1B, Score: 90.2% (Valedictorian, Principal's List)"
       #     - "Awards: Golden Pen Award (best essay writer), Python Contest Winner"
     projects:
-      - name: "[PseudoScript](https://alishah.pythonanywhere.com) -- Programming Language -- Built with Python (Flask, Pytest), JavaScript (Xterm.js)"
+      - name: "National Science Bowl Registrations Portal -- Built using Flask, Supabase, Google OAuth ([Link](https://nsbp.vercel.app))"
         highlights:
-          - Implemented a custom lexer and recursive descent parser in Python to interpret O/A Level pseudocode, featuring variable scoping and error handling.
-      - name: "[Genesis](https://github.com/asjindani/genesis) -- Built with C++, Qt (QGraphicsScene), SQLite"
+          - Replaced Google Forms workflow with full-stack web portal serving 1700+ users, eliminating email bottlenecks for team updates. Reduced administrative workload by >80% through self-service team management, enabling captains to add/remove members and update info in real-time. Implemented role-based access controls for captains, moderators, and admins. Designed a scalable system with SQLAlchemy ORM and Google authentication.
+          # - Replaced manual Google Forms workflow with full-stack web app serving 1700+ users, eliminating bottlenecks.
+          # - Reduced administrative workload by >80% through self-service team management with role-based access control.
+      - name: PseudoScript -- Custom Programming Language Interpreter -- Built using Flask, Pytest, Xterm.js # ([Demo](https://alishah.pythonanywhere.com))
+        highlights:
+          - Implemented a custom lexer and recursive descent parser to interpret O/A Level Computer Science pseudocode.
+      - name: "Genesis -- Genealogy Desktop Application -- Built with C++, Qt, SQLite ([GitHub](https://github.com/asjindani/genesis))"
         date:
         start_date:
         end_date:
@@ -79,16 +93,18 @@ cv:
         summary:
         highlights:
           - "A genealogy app that enables users to create, manage, and explore complex relationships and view family trees."
-      - name: "[Typister](https://typister.vercel.app) -- Built with JavaScript"
-        highlights:
-          - "A minimalist web app to test typing speed and accuracy with a timer, colorful themes, and custom word packs."
+      # - name: "Typister -- Typing Speed Test -- Built with JavaScript ([Demo](https://typister.vercel.app))"
+      #   highlights:
+      #     - "A minimalist web app to test typing speed and accuracy with a timer, colorful themes, and custom word packs."
     skills:
       - label: Languages
-        details: Python, C++, JavaScript, PHP, SQL
+        details: Python, C++, JavaScript, PHP, SQL, R
       - label: Libraries
-        details: STL, Qt, Ncurses, Numpy, Pandas, Matplotlib, Seaborn, Scipy, Flask, SQLAlchemy, Pytest, Bootstrap, PostgreSQL, SQLite, Supabase, Google OAuth
+        details: Flask, Bootstrap, Pytest, Numpy, Pandas, Matplotlib, Seaborn, Scipy, Sympy, STL, Qt, Ncurses, jQuery
+      - label: Databases & Backend
+        details: Supabase, Neon, PostgreSQL, SQLite, SQLAlchemy, Google OAuth
       - label: Tools
-        details: Git, GitHub, PowerBI, R, Excel, Logisim, Verilog
+        details: Git, GitHub, PowerBI, Excel, Logisim, Verilog
       # - label: "Languages"
       #   details: "English (proficient), Urdu (native), Sindhi (conversational)"
   sort_entries: "none"
